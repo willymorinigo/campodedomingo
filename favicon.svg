@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#384e3a" />
+      <stop offset="100%" stop-color="#233425" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d8a374" />
+      <stop offset="100%" stop-color="#c28c5f" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background container with soft rounded corners -->
+  <rect width="64" height="64" rx="14" fill="url(#bgGrad)" />
+
+  <!-- Subtle inner border -->
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" />
+
+  <!-- Country landscape / Sun & Field -->
+  <g transform="translate(0, 0)">
+    <!-- Sun / Moon in warm gold -->
+    <circle cx="44" cy="22" r="5.5" fill="url(#goldGrad)" opacity="0.9" />
+
+    <!-- Country rolling hills -->
+    <path d="M4 48 Q 24 38, 44 44 T 60 48 L 60 52 Q 32 55, 4 52 Z" fill="#2a3d2c" opacity="0.6" />
+    
+    <!-- Majestic Country Pine / Oak Tree -->
+    <!-- Trunk -->
+    <path d="M30 46 L34 46 L33 37 L31 37 Z" fill="#c28c5f" />
+    
+    <!-- Tree Foliage Canopy layers -->
+    <!-- Base layer -->
+    <path d="M18 40 C18 34, 25 31, 32 31 C39 31, 46 34, 46 40 C46 44, 41 45, 32 45 C23 45, 18 44, 18 40 Z" fill="#4a694d" />
+    <!-- Middle layer -->
+    <path d="M21 33 C21 28, 26 25, 32 25 C38 25, 43 28, 43 33 C43 36, 39 37, 32 37 C25 37, 21 36, 21 33 Z" fill="#5c805f" />
+    <!-- Top layer -->
+    <path d="M25 26 C25 21, 28 18, 32 18 C36 18, 39 21, 39 26 C39 28, 36 30, 32 30 C28 30, 25 28, 25 26 Z" fill="#719b74" />
+
+    <!-- Highlights -->
+    <circle cx="32" cy="22" r="1.5" fill="#fcfbf7" opacity="0.4" />
+    
+    <!-- Elegant 'D' Monogram in gold at bottom center -->
+    <text x="32" y="58" font-family="'Playfair Display', serif" font-size="8.5" font-weight="bold" fill="url(#goldGrad)" text-anchor="middle" letter-spacing="1">DOMINGO</text>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "El campo de Domingo",
+  "description": "Alquiler de casa de campo para eventos y escapadas en Magdalena. Calendario de disponibilidad, galería fotográfica real, testimonios y contacto directo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
